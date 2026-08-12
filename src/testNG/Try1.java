@@ -14,6 +14,8 @@ public class Try1 {
 		        
 		        // Converts the array and prints: [10, 20, 30, 40]
 		        System.out.println(Arrays.toString(numbers)); 
+		        
+		        System.out.println("GIT updation");
 		    
 	}
 }
