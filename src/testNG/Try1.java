@@ -17,7 +17,7 @@ public class Try1 {
 		        
 		        System.out.println("GIT updation");
 		        
-		        System.out.println("checking branch name");
+		        System.out.println("checking branch name in workspace");
 		    
 	}
 }
