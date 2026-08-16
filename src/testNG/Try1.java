@@ -36,7 +36,7 @@ public class Try1 {
 		System.out.println("Im 2nd B4 Method");
 	}
 
-	@Test
+	@Test(groups="smoke")
 	public void test1() {
 		System.out.println("Im 1st test");
 	}
