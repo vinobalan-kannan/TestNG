@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<test thread-count="5" name="Test">
+	<parameter name="URL" value="www.google.com"></parameter>
 		<classes>
 			<class name="testNG.Try1">
-				<methods>
+				<!--<methods>
 					<exclude name="test2" />
-				</methods> 
-				</class>
+				</methods>-->
+			</class>
 			<class name="testNG.Try2" />
+			<class name="testNG.Try3" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!--

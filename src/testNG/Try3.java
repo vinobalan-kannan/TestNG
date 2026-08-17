@@ -8,10 +8,15 @@ public class Try3 {
 		System.out.println("Im 4th test");
 	}
 	@Test
+	public void test7() {
+		System.out.println("Im 7th test");
+	}
+	@Test
 	public void test5() {
 		System.out.println("Im 5th test");
 	}@Test
 	public void test6() {
 		System.out.println("Im 6th test");
 	}
+	
 }
