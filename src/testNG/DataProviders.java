@@ -5,12 +5,11 @@ import org.testng.annotations.Test;
 
 public class DataProviders {
 
-	
-	@Test(dataProvider="setData")
-	public void useData(String username, String psswrd)
-	{
-		System.out.println(username + psswrd);
+	@Test(dataProvider = "setData")
+	public void useData(String username, String psswrd) {
+		System.out.println(username + " " + psswrd);
 	}
+
 	@DataProvider
 	public Object[][] setData() {
 		Object[][] data = new Object[3][2];
@@ -23,7 +22,7 @@ public class DataProviders {
 
 		data[2][0] = "Admin2";
 		data[2][1] = "admin123";
-		
+
 		return data;
 	}
 }
